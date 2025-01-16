@@ -1,0 +1,44 @@
+my-react-app/
+├── public/                 # Статические файлы, доступные напрямую
+│   ├── index.html          # Главный HTML-файл
+│   ├── favicon.ico         # Иконка сайта
+│   └── assets/             # Другие статические ресурсы (изображения, шрифты)
+│
+├── src/                    # Исходный код приложения
+│   ├── components/         # Переиспользуемые React-компоненты
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   └── UI/             # Компоненты пользовательского интерфейса
+│   │       ├── Button.jsx
+│   │       └── Input.jsx
+│   │
+│   ├── pages/              # Страницы приложения
+│   │   ├── HomePage.jsx
+│   │   ├── AboutPage.jsx
+│   │   └── ContactPage.jsx
+│   │
+│   ├── layouts/            # Шаблоны страниц (например, MainLayout)
+│   │   └── MainLayout.jsx
+│   │
+│   ├── hooks/              # Кастомные хуки
+│   │   └── useFetch.js
+│   │
+│   ├── context/            # Контексты React
+│   │   └── AuthContext.jsx
+│   │
+│   ├── utils/              # Утилиты и вспомогательные функции
+│   │   └── formatDate.js
+│   │
+│   ├── styles/             # Глобальные стили
+│   │   ├── index.css
+│   │   └── variables.css
+│   │
+│   ├── App.jsx             # Главный компонент приложения
+│   ├── index.js            # Точка входа (рендеринг React-компонента в DOM)
+│   └── setupTests.js       # Настройка тестирования
+│
+├── .env                    # Переменные окружения
+├── .gitignore              # Исключение файлов из Git
+├── package.json            # Зависимости и скрипты
+├── README.md               # Документация проекта
+└── yarn.lock / package-lock.json  # Блокировка зависимостей
